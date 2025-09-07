@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Allocation Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            padding: 12px 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #1abc9c;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .login-form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 12px;
+            background: #1abc9c;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .login-form button:hover {
+            background: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hostel Allocation Management System</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Student Registration</a>
+        <a href="#">Room Allocation</a>
+        <a href="#">View Rooms</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>Login to Continue</h2>
+        <form class="login-form" action="dashboard.html" method="POST">
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+              </html>
